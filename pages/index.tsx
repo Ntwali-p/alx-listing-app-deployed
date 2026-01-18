@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import PropertyCard from "@/components/property/PropertyCard";
 
+
 interface Property {
   id: string;
   title: string;
